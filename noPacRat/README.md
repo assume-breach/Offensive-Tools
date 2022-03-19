@@ -9,7 +9,7 @@ The script will bypass AMSI/Windows Defender and dump any saved creds from the W
 
 Usage:
 
-Download all of the files to the target (I know, it's not OPSEC safe) and run noPacRat.ps1 in powershell. The file must be on disk in order to dump creds from the Windows Credential Manager.
+Download all of the files to the target (I know, it's not OPSEC safe) and run noPacRat.ps1 in powershell. The files must be on disk in order to dump creds from the Windows Credential Manager. Might be a way around that if you want to run it from a beacon, but I haven't played around with that yet.
 
 ![](nopacratdemo.gif)
 
