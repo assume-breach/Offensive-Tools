@@ -7,6 +7,9 @@ noPacRat utilizes several pieces of code that are already out there such as FatR
 
 The script will bypass AMSI/Windows Defender and dump any saved creds from the Windows Credential Manager. It will then take those creds and run them against Invoke-noPac for a fully automated way to get a TGT from the DC. This started out as a BashBunny payload (which it is) so improvements and changes will follow!
 
+Usage:
+
+Download all of the files to the target (I know, it's not OPSEC safe) and run noPacRat.ps1 in powershell. The file must be on disk in order to dump creds from the Windows Credential Manager.
 
 ![](nopacratdemo.gif)
 
