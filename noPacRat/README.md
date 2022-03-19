@@ -14,4 +14,6 @@ CONSIDERATIONS
 
 In order for this to work, there are several things that must go right. The first is that the DC must be vulernable to the exploit. For testing, Windows Server 2019 and below are vulnerable out of box and up to the KB5008380 and KB5008602 security patches. Also a valid stored domain credential must be in Windows Credential Manager. 
 
+The code could definitely be cleaned up and optimized, but this works for now. OPSEC-wise, this will drop artifacts so make sure that you clean up the files that it creates!
+
 Credits: https://github.com/ricardojba https://github.com/FatRodzianko https://github.com/BeetleChunks
