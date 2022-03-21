@@ -19,6 +19,7 @@ Start-Sleep 5
 $DC= Get-Content DC.txt
 $domain= (gwmi win32_computersystem).Domain
 $DCvar= "$DC.$domain"
+ls "\\$DCvar\C$"
 psexec.exe -accepteula \\"$DCvar" cmd
 
 
