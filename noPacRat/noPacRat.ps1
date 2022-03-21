@@ -21,3 +21,4 @@ $domain= (gwmi win32_computersystem).Domain
 $DCvar= "$DC.$domain"
 psexec.exe -accepteula \\"$DCvar" cmd
 
+
