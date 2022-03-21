@@ -5,7 +5,7 @@ noPacRat is an automated powershell based version of the SamAccount Spoofing NoP
 
 noPacRat utilizes several pieces of code that are already out there such as FatRodzianko's AMSI bypass, rcardojba's Invoke-noPac and the Empire Windows Credential Manager dump script. I've chained these all together and made a few modifications to get past AMSI and Windows Defender. 
 
-The script will bypass AMSI/Windows Defender and dump any saved creds from the Windows Credential Manager. It will then take those creds and run them against Invoke-noPac for a fully automated way to get a TGT from the DC. This started out as a BashBunny payload (which it is) so improvements and changes will follow!
+The script will bypass AMSI/Windows Defender and dump any saved creds from the Windows Credential Manager. It will then take those creds and run them against Invoke-noPac for a fully automated way to get a TGS from the DC. This started out as a BashBunny payload (which it is) so improvements and changes will follow!
 
 Usage:
 
