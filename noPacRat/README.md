@@ -11,6 +11,8 @@ Usage:
 
 Download all of the files to the target (I know, it's not OPSEC safe) and run noPacRat.ps1 in powershell. The files must be on disk in order to dump creds from the Windows Credential Manager. Might be a way around that if you want to run it from a beacon, but I haven't played around with that yet.
 
+UPDATE! If the asmi-opcode.ps1 is getting flagged by AMSI, pull it out of the noPacRat.ps1 script and run it outside of the script first. Then run the noPacRat.ps1 script.
+
 ![](nopacratdemo.gif)
 
 CONSIDERATIONS
